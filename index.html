@@ -1,1287 +1,333 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <title>Nikhil Singh</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- icon CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    
+</head>
+<body>
+        <!--============ Navigation bar ===========================-->
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="./packages/css/styles.css">
-
-        <title>Nikhil Singh</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Nikhil Singh</a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i>About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i>Skills
-                            </a>
-                        </li>
-                          <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i>My Statics
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i>Projects                               
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Contact                               
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
-                </div>
-                <!-- <div class="nav__btns">
-                    Theme change button -->
-<!-- 
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                 
-
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div> -->
-                </div>
-            </nav>
+        <header>
+            <!-- logo -->
+            <a href="#" class="logo"> Nikhil Singh</a>
+            <!-- button for responsive device -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+            
+            <!-- menu items -->
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myskill">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Nikhil-Singh-Resume.pdf">Resume</a></li>
+                    <!-- dark mode button -->
+                    <div class="bx bx-moon" id="darkmode"></div>
+                </ul>
         </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="linkedin.com/in/nikhil-singh-5b0072204" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="https://twitter.com/itsnikhil0786" target="_blank" class="home__social-icon">
-                                <i class="uil uil-twitter-alt"></i>
-                            </a>
-                            <a href="https://github.com/NikhSin" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/200" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x="" xlink:href="packages\images\Main.jpg">
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'am Nikhil</h1>
-                            <h3 class="home__subtitle">JAVA Backend Developer</h3>
-                            <p class="home__description">I am an Aspring Full Stack Developer. I love Coding and problem solving.</p>
-                            <a href="#contact" class="button button--flex home__button">
-                                Contact Me<i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
+                <!--============== Home section=================== -->
+            <section class="home">
+                <div class="social">
+                    <a href="https://github.com/NikhSin" target="_blank"> <i class="bx bxl-github"></i></a>
+                    <a href="linkedin.com/in/nikhil-singh-5b0072204" target="_blank"> <i class="bx bxl-linkedin"></i></a>
+                </div>
+                <!-- home image -->
+                <div class="home-img">
+                    <img src="images\pras-1.JPG" alt="">
+                </div> 
+                <!-- home content -->
+                <div class="home-text">
+                    <span>Hello I'm</span>
+                    <h1>Nikhil Singh</h1>
+                    <h2>Backend Developer</h2>
+                    <p>Focused on building fast and scalable <br> Backend code to build quality products.</p>
+                    <!-- contact button -->
+                    <a href="#contact" class="btn">Contact Me</a>
                 </div>
             </section>
+            
+            <!-- ============About section====================== -->
+            <section class="about" id="about">
+                <!-- heading -->
+                <div class="heading">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+                </div>
+                <!-- about content -->
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My Introduction</span>
+                <div class="about-container">
 
-                <div class="about__container container grid">
-                    <img src="packages\images\pras-1.JPG" alt="" class="about__img">
-                    <div class="about__data">
-                        <p class="about__description">My name is Nikhil Singh and I am a JAVA Backend Developer, passionate about building digital products that improve everyday experience for people. I love to work on exciting projects that test what I've learnt,whilst being exposed to the power and potential of the ever-evolving technologies around us. I'm always looking for better, and more importantly, ethical and accessible ways to solve the common problems we are faced with day-to-day.
+                        <!-- text -->
+                        <div class="about-text">
+                            <p>
+                                An Ambitious, Java-Backend Developer with specialization 
+                                in Core Java, Springboot. Capable of writing Production-ready
+                                Backend code. Self-Motived with a keen interest to build quality 
+                                User-Friendly products. Strongly Interested in working in a Challenging 
+                                environment with a problem-solving approach.
+                            </p>
+                            <div class="about-num">
+                               <div class="about-num-data">
+                                <span class="info-title">1200+ <br> </span>
+                                <span class="info-details">hours of coding <br> experience </span>
+                               </div>
+                               <div class="about-num-data">
+                                <span class="info-title">10+ <br> </span>
+                                <span class="info-details">Completed <br> Projects</span>
+                               </div>
+                            </div>
+                           
+                            <!-- btn -->
+                            <div class="about-btn">
+                            <a href="Nikhil-Singh-Resume.pdf" class="btn" id="resume">Download Cv</a>
+                        </div>
+                        </div>
+
+                        <div class="information">
+                            <!-- box1 -->
+                            <div class="info-box">
+                                <i class="bx bxs-user"></i>
+                                <span>Nikhil Singh</span>
+                            </div>
+                            <!-- box2 -->
+                            <div class="info-box">
+                                <i class="bx bxs-phone"></i>
+                                <span><a href="tel:+918570984471"> +91 7089454864</a></span>
+                            </div>
+                            <!-- box3 -->
+                            <div class="info-box">
+                                <i class="bx bxs-envelope"></i>
+                                <span> <a href="mailto: itsnikhil0786@gmail.com"> itsnikhil0786@gmail.com</a></span>
+                            </div>
+                            <!-- box 4 -->
+                            <div class="info-box">
+                                <i class="bx bxs-map"></i>
+                                <span> Satna, Madhya Pradesh</span>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+
+        <!-- ======================= Skills Section====================== -->
+    
+        <section class="skills" id="skills">
+            <div class="heading">
+                <h2>Tech Stack</h2>
+                <span>My Techstack</span>
+            </div>
+
+            <div class="skills-content">
+                <!-- box1 -->
+                <div class="skills-box">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <!-- box2 -->
+                <div class="skills-box">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>Java-Script</h3>
+                </div>
+                <!-- box3 -->
+                <div class="skills-box">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <!-- box4 -->
+                <div class="skills-box">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <!-- box5 -->
+                <div class="skills-box">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================My Skills=================== -->
+        <section class="myskills" id="myskill">
+            <div class="heading">
+                <h2>Skills</h2>
+                <span>My Skills</span>
+            </div>
+
+            <div class="skills-content" id="myskills">
+                <div class="skills-box">
+                    <i class="fa-sharp fa-solid fa-gears"></i>
+                    <h3>Back-End Development</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fa-sharp fa-solid fa-display"></i>
+                    <h3>Front-End Development</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fa-brands fa-rocketchat"></i>
+                    <h3>Communication</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fa-sharp fa-solid fa-code-merge"></i>
+                    <h3>Data-Structures Algorithms</h3>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- ====================== Project =============== -->
+        <section class="project" id="project">
+            <div class="heading">
+                <h2>Projects</h2>
+                <span>Recent Projects</span>
+            </div>
+
+            <div class="project-content">
+                <div class="project-box">
+                    <img src="images\portfolio1.png" alt="">
+                    
+                    <div class="project-data">
+                        <h2>MailChimp Website</h2>
+                        <p>Project to clone a website names mailchimp.com. Mailchimp is an American marketing automation platform and email marketing service for managing mailing lists and creating email marketing campaigns.
+                            Tried to clone the appearace and major functionalities of the website like creating an account and loging in it, used localstorage to achieve these functionalities.</p>
+                        <h4>Tech Stack:</h4> <p>HTML | CSS | Javascript</p>
+                        
+                        <div class="project-btn">
+                            <a href="https://github.com/PRA3EEK/ethereal-mask-9914" target="_blank"><i class="fa-brands fa-github"></i>  GitHub</a>
+                            <a href="https://verdant-gecko-cf4194.netlify.app/navbarbyvicky/" target="_blank"><i class="fa-brands fa-chrome"></i>  Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="images\portfolio2.png" alt="">
+                    
+                    <div class="project-data">
+                        <h2>Nature Basket</h2>
+                        <p>Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods. The company is headquartered in Mumbai, India and has multiple stores in cities like Mumbai, Bengaluru, Pune and Kolkata.
                         </p>
-                  
+                       <h4>Tech Stack:</h4> <p> HTML | CSS | Javascript</p>
 
-                        <div class="about__buttons">
-                            <a download="" href="https://drive.google.com/file/d/140LlgIdFmD7SolnQQWhgoWGeSI3xx4ye/view?usp=sharing" class="button button--flex">
-                                Download CV<i class="uil uil-download-alt button__icon"></i>
-                            </a>
+                        <div class="project-btn">
+                            <a href="https://github.com/PRA3EEK/ethereal-mask-9914" target="_blank"><i class="fa-brands fa-github"></i>  GitHub</a>
+                            <a href="https://nature-sbasket.netlify.app/" target="_blank"><i class="fa-brands fa-chrome"></i>  Live</a>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
-
-                <div class="skills__container container grid">
-                    <div>
-                         <!--==================== SKILL-1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-analytics skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title">Java Developer</h1>
-                                   <span class="skills__subtitle"></span>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">JAVA</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
-                                </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">MySQL</h3>
-                                       <span class="skills__number">80%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__tab"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">Spring</h3>
-                                       <span class="skills__number">50%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__sql"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">Spring Boot</h3>
-                                       <span class="skills__number">70%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__google"></span>
-                                   </div>
-                               </div>
-                            </div>
-                        </div>
-                         <!--==================== SKILLS 2 ====================-->
-                        <!-- <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-money-bill skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title">DBMS</h1>
-                                   <span class="skills__subtitle"></span>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">MySQL</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__bank"></span>
-                                    </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">Counters</h3>
-                                       <span class="skills__number">80%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__counter"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                    <div class="skills__titles">
-                                      <h3 class="skills__name">Google suite</h3>
-                                      <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                       <span class="skills__percentage skills__google"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">MS Office</h3>
-                                       <span class="skills__number">90%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__office"></span>
-                                   </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div> -->
-                        <!--==================== SKILLS 3 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                               <i class="uil uil-brackets-curly skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title">Web Developer</h1>
-                                   <span class="skills__subtitle"></span>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">CSS</h3>
-                                       <span class="skills__number">80%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__css"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">JavaScript</h3>
-                                       <span class="skills__number">60%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__js"></span>
-                                   </div>
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">WordPress</h3>
-                                       <span class="skills__number">70%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__wordpress"></span>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
-                </div>
-            </section>
-
-              <!--==================== QUALIFICATION ====================-->
-        <section class="qualification__section">
-            <h2 class="section__title">Qualification</h2>
-            <span class="section__subtitle">My personal journey</span>
-
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Education
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target="#work">
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Work
-                    </div>
-                </div>
-
-                <div class="qualification__sections">
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content qualification__active" data-content id="education">
-             <!--==================== QUALIFICATION 1 ====================--> 
-             <div class="qualification__data">
-                 <div>
-                     <h3 class="qualification__title">Full Stak Web Developer </h3>
-                     <span class="qualification__subtitle">Masai School, Bangalore, KA</span>
-                     <div class="qualification__calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2022
-                     </div>
-                 </div>
-
-                 <div>
-                     <span class="qualification__rounder"></span>
-                     <span class="qualification__line"></span>
-                 </div>
-             </div>
-             
-             <!--==================== QUALIFICATION 2 ====================--> 
-             <div class="qualification__data">
-                <div></div>
-                <div>
-                   <span class="qualification__rounder"></span>
-                   <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                    <h3 class="qualification__title">B.Tech (Computer Science)</h3>
-                    <span class="qualification__subtitle">Techno Global University, Sironj, MP</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2015 - 2019
-                    </div>
-                </div>
-            </div> 
-
-            <!--==================== QUALIFICATION 3 ====================--> 
-            <div class="qualification__data">
-                <div>
-                    <h3 class="qualification__title">Intermediate</h3>
-                    <span class="qualification__subtitle">Anupama Higher Secondary School,Satna,MP</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2012 - 2013
-                    </div>
-                </div>
-
-                <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                </div>
-            </div> 
-                
-            </div>
-            </div>
-            
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="work">
-                <!--==================== QUALIFICATION 1 ====================--> 
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">Seller support executive</h3>
-                        <span class="qualification__subtitle">Aegis Customer Service pvt.ltd,Bangalore,KA</span>
-                        <div class="qualification__calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           2020 - 2021
-                        </div>
-                    </div>
-   
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
                     </div>
                 </div>
                 
-                <!--==================== QUALIFICATION 2 ====================--> 
-                <!-- <div class="qualification__data">
-                   <div></div>
-                   <div>
-                      <span class="qualification__rounder"></span>
-                      <span class="qualification__line"></span>
-                   </div>
-   
-                   <div>
-                       <h3 class="qualification__title">Banking Assistant</h3>
-                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          2019 - 2020
-                       </div>
-                   </div>
-               </div>  -->
-   
-               <!--==================== QUALIFICATION 3 ====================--> 
-               <!-- <div class="qualification__data">
-                   <div>
-                       <h3 class="qualification__title">Data Analyst - Digital banking</h3>
-                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          2020 - Present
-                       </div>
-                   </div>
-   
-                   <div> -->
-                       <!-- <span class="qualification__rounder"></span> -->
-                       <!-- <span class="qualification__line"></span> -->
-                   </div>
-               </div> 
-          
-               </div> 
-             
-               </div>
             </div>
         </section>
-      
-        <!--==================== STATICS ====================-->
-        <!-- <section class="services section" id="services">
-          
-          
-         <div class="services__container container grid">
+        <!-- =================== statics=================== -->
+        <div class="heading">
+            <h2>Static</h2>
+            <span>My Statics</span>
+        </div>
 
-         
+        <div class="skills-content" id="statics">
+            <div class="skills-box">
+                <div class="circle"><h2>1200+</h2></div>
+                <h3>Hour of coding</h3>
+            </div>
+            <div class="skills-box">
+                <div class="circle"><h2>400+</h2></div>
+                <h3>DSA Questions</h3>
+            </div>
+            <div class="skills-box">
+                <div class="circle"><h2>100+</h2></div>
+                <h3>Hours of Soft Skills</h3>
+            </div>
+            <div class="skills-box">
+                <div class="circle"><h2>3+</h2></div>
+                <h3>Collaborative Projects</h3>
+            </div>
+            <div class="skills-box">
+                <div class="circle"><h2>10+</h2></div>
+                <h3>Solo Projects</h3>
+            </div>
+          
+        </div>
+
+        <!-- ===================github============================ -->
+        <section class="github" >  
+        <div class="heading" id="github">
+                <h2>GitHub</h2>
+                <span>My GitHub</span>
+            </div>
+        <div class="calendar">
            
-       
+            Loading the data just for you.
         </div>
-        </section> -->
-        <br>
-        <br>
-        <h2 class="section__title">My Statics</h2> 
-        <section>
-            <!-- statitics   -->
-            <!-- <h2 style="text-align:center;margin-bottom: 40px;">My Statitics</h2> -->
-            <h2 class="section-title"></h2>
-                <!-- <p align="left"> -->
-                <div style="display: flex; align-items: center;text-align: center;margin: auto;width: 70%;gap: 10px;">
-                <!-- <p align ="center" style="width:70%;margin:auto;" > -->
-                  <!-- <p align="center"style="margin: auto;width: 70%;"> -->
-                  <img width="50%" src="https://github-readme-stats.vercel.app/api?username=NikhSin&amp;show_icons=true&amp;theme=default">
-                  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=NikhSin&amp;theme=default">
-                  
-                
-              </div>
-            <!-- staticsend  -->
-            
-            <!-- github calender  -->
-            <h2 class="section-title"> GitHubCalendar</h2>
-            <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-            
-            <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css">
-            
-            <!-- <h2 style="text-align:center ;">My Github Calander</h2> -->
-            <div style="width:70%;margin:auto;" class="calendar">
-            <div class="position-relative">
-            
-            <div class="border py-2 graph-before-activity-overview">
-            <div class="js-calendar-graph mx-md-2 mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas ContributionCalendar height-full text-center" data-graph-url="/users/NikhSin/contributions" data-url="/NikhSin" data-from="2022-01-01 00:00:00 UTC" data-to="2022-12-27 23:59:59 UTC" data-org="">
-            <svg width="100%" class="js-calendar-graph-svg" viewBox="0 0 717 112">
-            <g transform="translate(15, 20)" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:101393035,&quot;target&quot;:&quot;CONTRIBUTION_CALENDAR_SQUARE&quot;,&quot;user_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/users/NikhSin/contributions&quot;}}" data-hydro-click-hmac="601f36238e41b1e367231a695b4ea4a685462fe0bb4ef404b5573c800eca18b1">
-            <g transform="translate(0, 0)">
-            <rect width="10" height="10" x="14" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2021-12-26" data-level="0"></rect>
-            <rect width="10" height="10" x="14" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2021-12-27" data-level="0"></rect>
-            <rect width="10" height="10" x="14" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2021-12-28" data-level="0"></rect>
-            <rect width="10" height="10" x="14" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2021-12-29" data-level="0"></rect>
-            <rect width="10" height="10" x="14" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2021-12-30" data-level="0"></rect>
-            <rect width="10" height="10" x="14" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2021-12-31" data-level="0"></rect>
-            <rect width="10" height="10" x="14" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-01" data-level="0"></rect>
-            </g>
-            <g transform="translate(14, 0)">
-            <rect width="10" height="10" x="13" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-02" data-level="0"></rect>
-            <rect width="10" height="10" x="13" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-03" data-level="0"></rect>
-            <rect width="10" height="10" x="13" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-04" data-level="0"></rect>
-            <rect width="10" height="10" x="13" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-05" data-level="0"></rect>
-            <rect width="10" height="10" x="13" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-06" data-level="0"></rect>
-            <rect width="10" height="10" x="13" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-07" data-level="0"></rect>
-            <rect width="10" height="10" x="13" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-08" data-level="0"></rect>
-            </g>
-            <g transform="translate(28, 0)">
-            <rect width="10" height="10" x="12" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-09" data-level="0"></rect>
-            <rect width="10" height="10" x="12" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-10" data-level="0"></rect>
-            <rect width="10" height="10" x="12" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-11" data-level="0"></rect>
-            <rect width="10" height="10" x="12" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-12" data-level="0"></rect>
-            <rect width="10" height="10" x="12" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-13" data-level="0"></rect>
-            <rect width="10" height="10" x="12" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-14" data-level="0"></rect>
-            <rect width="10" height="10" x="12" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-15" data-level="0"></rect>
-            </g>
-            <g transform="translate(42, 0)">
-            <rect width="10" height="10" x="11" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-16" data-level="0"></rect>
-            <rect width="10" height="10" x="11" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-17" data-level="0"></rect>
-            <rect width="10" height="10" x="11" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-18" data-level="0"></rect>
-            <rect width="10" height="10" x="11" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-19" data-level="0"></rect>
-            <rect width="10" height="10" x="11" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-20" data-level="0"></rect>
-            <rect width="10" height="10" x="11" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-21" data-level="0"></rect>
-            <rect width="10" height="10" x="11" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-22" data-level="0"></rect>
-            </g>
-            <g transform="translate(56, 0)">
-            <rect width="10" height="10" x="10" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-23" data-level="0"></rect>
-            <rect width="10" height="10" x="10" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-24" data-level="0"></rect>
-            <rect width="10" height="10" x="10" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-25" data-level="0"></rect>
-            <rect width="10" height="10" x="10" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-26" data-level="0"></rect>
-            <rect width="10" height="10" x="10" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-27" data-level="0"></rect>
-            <rect width="10" height="10" x="10" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-28" data-level="0"></rect>
-            <rect width="10" height="10" x="10" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-29" data-level="0"></rect>
-            </g>
-            <g transform="translate(70, 0)">
-            <rect width="10" height="10" x="9" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-30" data-level="0"></rect>
-            <rect width="10" height="10" x="9" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-01-31" data-level="0"></rect>
-            <rect width="10" height="10" x="9" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-01" data-level="0"></rect>
-            <rect width="10" height="10" x="9" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-02" data-level="0"></rect>
-            <rect width="10" height="10" x="9" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-03" data-level="0"></rect>
-            <rect width="10" height="10" x="9" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-04" data-level="0"></rect>
-            <rect width="10" height="10" x="9" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-05" data-level="0"></rect>
-            </g>
-            <g transform="translate(84, 0)">
-            <rect width="10" height="10" x="8" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-06" data-level="0"></rect>
-            <rect width="10" height="10" x="8" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-07" data-level="0"></rect>
-            <rect width="10" height="10" x="8" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-08" data-level="0"></rect>
-            <rect width="10" height="10" x="8" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-09" data-level="0"></rect>
-            <rect width="10" height="10" x="8" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-10" data-level="0"></rect>
-            <rect width="10" height="10" x="8" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-11" data-level="0"></rect>
-            <rect width="10" height="10" x="8" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-12" data-level="0"></rect>
-            </g>
-            <g transform="translate(98, 0)">
-            <rect width="10" height="10" x="7" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-13" data-level="0"></rect>
-            <rect width="10" height="10" x="7" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-14" data-level="0"></rect>
-            <rect width="10" height="10" x="7" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-15" data-level="0"></rect>
-            <rect width="10" height="10" x="7" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-16" data-level="0"></rect>
-            <rect width="10" height="10" x="7" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-17" data-level="0"></rect>
-            <rect width="10" height="10" x="7" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-18" data-level="0"></rect>
-            <rect width="10" height="10" x="7" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-19" data-level="0"></rect>
-            </g>
-            <g transform="translate(112, 0)">
-            <rect width="10" height="10" x="6" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-20" data-level="0"></rect>
-            <rect width="10" height="10" x="6" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-21" data-level="0"></rect>
-            <rect width="10" height="10" x="6" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-22" data-level="0"></rect>
-            <rect width="10" height="10" x="6" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-23" data-level="0"></rect>
-            <rect width="10" height="10" x="6" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-24" data-level="0"></rect>
-            <rect width="10" height="10" x="6" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-25" data-level="0"></rect>
-            <rect width="10" height="10" x="6" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-26" data-level="0"></rect>
-            </g>
-            <g transform="translate(126, 0)">
-            <rect width="10" height="10" x="5" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-27" data-level="0"></rect>
-            <rect width="10" height="10" x="5" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-02-28" data-level="0"></rect>
-            <rect width="10" height="10" x="5" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-01" data-level="0"></rect>
-            <rect width="10" height="10" x="5" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-02" data-level="0"></rect>
-            <rect width="10" height="10" x="5" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-03" data-level="0"></rect>
-            <rect width="10" height="10" x="5" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-04" data-level="0"></rect>
-            <rect width="10" height="10" x="5" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-05" data-level="0"></rect>
-            </g>
-            <g transform="translate(140, 0)">
-            <rect width="10" height="10" x="4" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-06" data-level="0"></rect>
-            <rect width="10" height="10" x="4" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-07" data-level="0"></rect>
-            <rect width="10" height="10" x="4" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-08" data-level="0"></rect>
-            <rect width="10" height="10" x="4" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-09" data-level="0"></rect>
-            <rect width="10" height="10" x="4" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-10" data-level="0"></rect>
-            <rect width="10" height="10" x="4" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-03-11" data-level="1"></rect>
-            <rect width="10" height="10" x="4" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-12" data-level="0"></rect>
-            </g>
-            <g transform="translate(154, 0)">
-            <rect width="10" height="10" x="3" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-13" data-level="0"></rect>
-            <rect width="10" height="10" x="3" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-14" data-level="0"></rect>
-            <rect width="10" height="10" x="3" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-15" data-level="0"></rect>
-            <rect width="10" height="10" x="3" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-16" data-level="0"></rect>
-            <rect width="10" height="10" x="3" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-17" data-level="0"></rect>
-            <rect width="10" height="10" x="3" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-18" data-level="0"></rect>
-            <rect width="10" height="10" x="3" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-19" data-level="0"></rect>
-            </g>
-            <g transform="translate(168, 0)">
-            <rect width="10" height="10" x="2" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-20" data-level="0"></rect>
-            <rect width="10" height="10" x="2" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-21" data-level="0"></rect>
-            <rect width="10" height="10" x="2" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-22" data-level="0"></rect>
-            <rect width="10" height="10" x="2" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-23" data-level="0"></rect>
-            <rect width="10" height="10" x="2" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-24" data-level="0"></rect>
-            <rect width="10" height="10" x="2" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-25" data-level="0"></rect>
-            <rect width="10" height="10" x="2" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-26" data-level="0"></rect>
-            </g>
-            <g transform="translate(182, 0)">
-            <rect width="10" height="10" x="1" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-27" data-level="0"></rect>
-            <rect width="10" height="10" x="1" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-28" data-level="0"></rect>
-            <rect width="10" height="10" x="1" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-29" data-level="0"></rect>
-            <rect width="10" height="10" x="1" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-30" data-level="0"></rect>
-            <rect width="10" height="10" x="1" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-03-31" data-level="0"></rect>
-            <rect width="10" height="10" x="1" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-01" data-level="0"></rect>
-            <rect width="10" height="10" x="1" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-02" data-level="0"></rect>
-            </g>
-            <g transform="translate(196, 0)">
-            <rect width="10" height="10" x="0" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-03" data-level="0"></rect>
-            <rect width="10" height="10" x="0" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-04" data-level="0"></rect>
-            <rect width="10" height="10" x="0" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-05" data-level="0"></rect>
-            <rect width="10" height="10" x="0" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-06" data-level="0"></rect>
-            <rect width="10" height="10" x="0" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-07" data-level="0"></rect>
-            <rect width="10" height="10" x="0" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-08" data-level="0"></rect>
-            <rect width="10" height="10" x="0" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-09" data-level="0"></rect>
-            </g>
-            <g transform="translate(210, 0)">
-            <rect width="10" height="10" x="-1" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-10" data-level="0"></rect>
-            <rect width="10" height="10" x="-1" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-11" data-level="0"></rect>
-            <rect width="10" height="10" x="-1" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-12" data-level="0"></rect>
-            <rect width="10" height="10" x="-1" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-13" data-level="0"></rect>
-            <rect width="10" height="10" x="-1" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-14" data-level="0"></rect>
-            <rect width="10" height="10" x="-1" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-15" data-level="0"></rect>
-            <rect width="10" height="10" x="-1" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-16" data-level="0"></rect>
-            </g>
-            <g transform="translate(224, 0)">
-            <rect width="10" height="10" x="-2" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-17" data-level="0"></rect>
-            <rect width="10" height="10" x="-2" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-18" data-level="0"></rect>
-            <rect width="10" height="10" x="-2" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-19" data-level="0"></rect>
-            <rect width="10" height="10" x="-2" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-20" data-level="0"></rect>
-            <rect width="10" height="10" x="-2" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-21" data-level="0"></rect>
-            <rect width="10" height="10" x="-2" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-22" data-level="0"></rect>
-            <rect width="10" height="10" x="-2" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-23" data-level="0"></rect>
-            </g>
-            <g transform="translate(238, 0)">
-            <rect width="10" height="10" x="-3" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-24" data-level="0"></rect>
-            <rect width="10" height="10" x="-3" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-04-25" data-level="1"></rect>
-            <rect width="10" height="10" x="-3" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-04-26" data-level="1"></rect>
-            <rect width="10" height="10" x="-3" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-04-27" data-level="1"></rect>
-            <rect width="10" height="10" x="-3" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-04-28" data-level="1"></rect>
-            <rect width="10" height="10" x="-3" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-04-29" data-level="0"></rect>
-            <rect width="10" height="10" x="-3" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-04-30" data-level="1"></rect>
-            </g>
-            <g transform="translate(252, 0)">
-            <rect width="10" height="10" x="-4" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="10" data-date="2022-05-01" data-level="4"></rect>
-            <rect width="10" height="10" x="-4" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-05-02" data-level="1"></rect>
-            <rect width="10" height="10" x="-4" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-03" data-level="0"></rect>
-            <rect width="10" height="10" x="-4" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-04" data-level="0"></rect>
-            <rect width="10" height="10" x="-4" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-05" data-level="0"></rect>
-            <rect width="10" height="10" x="-4" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-06" data-level="0"></rect>
-            <rect width="10" height="10" x="-4" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="5" data-date="2022-05-07" data-level="3"></rect>
-            </g>
-            <g transform="translate(266, 0)">
-            <rect width="10" height="10" x="-5" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-05-08" data-level="2"></rect>
-            <rect width="10" height="10" x="-5" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-09" data-level="0"></rect>
-            <rect width="10" height="10" x="-5" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-10" data-level="0"></rect>
-            <rect width="10" height="10" x="-5" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-11" data-level="0"></rect>
-            <rect width="10" height="10" x="-5" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-12" data-level="0"></rect>
-            <rect width="10" height="10" x="-5" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-13" data-level="0"></rect>
-            <rect width="10" height="10" x="-5" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-14" data-level="0"></rect>
-            </g>
-            <g transform="translate(280, 0)">
-            <rect width="10" height="10" x="-6" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-15" data-level="0"></rect>
-            <rect width="10" height="10" x="-6" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-16" data-level="0"></rect>
-            <rect width="10" height="10" x="-6" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-17" data-level="0"></rect>
-            <rect width="10" height="10" x="-6" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-18" data-level="0"></rect>
-            <rect width="10" height="10" x="-6" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-19" data-level="0"></rect>
-            <rect width="10" height="10" x="-6" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-20" data-level="0"></rect>
-            <rect width="10" height="10" x="-6" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-05-21" data-level="1"></rect>
-            </g>
-            <g transform="translate(294, 0)">
-            <rect width="10" height="10" x="-7" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-05-22" data-level="1"></rect>
-            <rect width="10" height="10" x="-7" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-05-23" data-level="1"></rect>
-            <rect width="10" height="10" x="-7" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-24" data-level="0"></rect>
-            <rect width="10" height="10" x="-7" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-25" data-level="0"></rect>
-            <rect width="10" height="10" x="-7" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-26" data-level="0"></rect>
-            <rect width="10" height="10" x="-7" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-27" data-level="0"></rect>
-            <rect width="10" height="10" x="-7" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-28" data-level="0"></rect>
-            </g>
-            <g transform="translate(308, 0)">
-            <rect width="10" height="10" x="-8" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-05-29" data-level="2"></rect>
-            <rect width="10" height="10" x="-8" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-05-30" data-level="1"></rect>
-            <rect width="10" height="10" x="-8" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-05-31" data-level="0"></rect>
-            <rect width="10" height="10" x="-8" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-01" data-level="0"></rect>
-            <rect width="10" height="10" x="-8" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-02" data-level="0"></rect>
-            <rect width="10" height="10" x="-8" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-03" data-level="1"></rect>
-            <rect width="10" height="10" x="-8" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-04" data-level="0"></rect>
-            </g>
-            <g transform="translate(322, 0)">
-            <rect width="10" height="10" x="-9" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-05" data-level="0"></rect>
-            <rect width="10" height="10" x="-9" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-06" data-level="1"></rect>
-            <rect width="10" height="10" x="-9" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-07" data-level="0"></rect>
-            <rect width="10" height="10" x="-9" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-08" data-level="0"></rect>
-            <rect width="10" height="10" x="-9" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-09" data-level="1"></rect>
-            <rect width="10" height="10" x="-9" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-10" data-level="0"></rect>
-            <rect width="10" height="10" x="-9" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-11" data-level="0"></rect>
-            </g>
-            <g transform="translate(336, 0)">
-            <rect width="10" height="10" x="-10" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-12" data-level="1"></rect>
-            <rect width="10" height="10" x="-10" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-13" data-level="1"></rect>
-            <rect width="10" height="10" x="-10" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-14" data-level="1"></rect>
-            <rect width="10" height="10" x="-10" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-15" data-level="0"></rect>
-            <rect width="10" height="10" x="-10" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-16" data-level="0"></rect>
-            <rect width="10" height="10" x="-10" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-17" data-level="0"></rect>
-            <rect width="10" height="10" x="-10" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-06-18" data-level="2"></rect>
-            </g>
-            <g transform="translate(350, 0)">
-            <rect width="10" height="10" x="-11" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-19" data-level="0"></rect>
-            <rect width="10" height="10" x="-11" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-20" data-level="1"></rect>
-            <rect width="10" height="10" x="-11" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-21" data-level="0"></rect>
-            <rect width="10" height="10" x="-11" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-22" data-level="0"></rect>
-            <rect width="10" height="10" x="-11" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-23" data-level="0"></rect>
-            <rect width="10" height="10" x="-11" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-24" data-level="1"></rect>
-            <rect width="10" height="10" x="-11" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-25" data-level="1"></rect>
-            </g>
-            <g transform="translate(364, 0)">
-            <rect width="10" height="10" x="-12" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-26" data-level="0"></rect>
-            <rect width="10" height="10" x="-12" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-27" data-level="1"></rect>
-            <rect width="10" height="10" x="-12" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-28" data-level="1"></rect>
-            <rect width="10" height="10" x="-12" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-06-29" data-level="0"></rect>
-            <rect width="10" height="10" x="-12" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-30" data-level="1"></rect>
-            <rect width="10" height="10" x="-12" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-07-01" data-level="2"></rect>
-            <rect width="10" height="10" x="-12" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-07-02" data-level="2"></rect>
-            </g>
-            <g transform="translate(378, 0)">
-            <rect width="10" height="10" x="-13" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-03" data-level="0"></rect>
-            <rect width="10" height="10" x="-13" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-07-04" data-level="2"></rect>
-            <rect width="10" height="10" x="-13" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-05" data-level="0"></rect>
-            <rect width="10" height="10" x="-13" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-06" data-level="0"></rect>
-            <rect width="10" height="10" x="-13" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-07" data-level="0"></rect>
-            <rect width="10" height="10" x="-13" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-08" data-level="0"></rect>
-            <rect width="10" height="10" x="-13" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-09" data-level="1"></rect>
-            </g>
-            <g transform="translate(392, 0)">
-            <rect width="10" height="10" x="-14" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-07-10" data-level="2"></rect>
-            <rect width="10" height="10" x="-14" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-11" data-level="1"></rect>
-            <rect width="10" height="10" x="-14" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-12" data-level="0"></rect>
-            <rect width="10" height="10" x="-14" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-13" data-level="0"></rect>
-            <rect width="10" height="10" x="-14" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-14" data-level="0"></rect>
-            <rect width="10" height="10" x="-14" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-07-15" data-level="2"></rect>
-            <rect width="10" height="10" x="-14" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-16" data-level="1"></rect>
-            </g>
-            <g transform="translate(406, 0)">
-            <rect width="10" height="10" x="-15" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-07-17" data-level="1"></rect>
-            <rect width="10" height="10" x="-15" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-18" data-level="1"></rect>
-            <rect width="10" height="10" x="-15" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-07-19" data-level="1"></rect>
-            <rect width="10" height="10" x="-15" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-20" data-level="1"></rect>
-            <rect width="10" height="10" x="-15" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-21" data-level="1"></rect>
-            <rect width="10" height="10" x="-15" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-07-22" data-level="1"></rect>
-            <rect width="10" height="10" x="-15" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="6" data-date="2022-07-23" data-level="3"></rect>
-            </g>
-            <g transform="translate(420, 0)">
-            <rect width="10" height="10" x="-16" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-24" data-level="0"></rect>
-            <rect width="10" height="10" x="-16" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-25" data-level="0"></rect>
-            <rect width="10" height="10" x="-16" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-26" data-level="0"></rect>
-            <rect width="10" height="10" x="-16" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-27" data-level="0"></rect>
-            <rect width="10" height="10" x="-16" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-28" data-level="1"></rect>
-            <rect width="10" height="10" x="-16" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-07-29" data-level="1"></rect>
-            <rect width="10" height="10" x="-16" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-07-30" data-level="1"></rect>
-            </g>
-            <g transform="translate(434, 0)">
-            <rect width="10" height="10" x="-17" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-07-31" data-level="0"></rect>
-            <rect width="10" height="10" x="-17" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-08-01" data-level="1"></rect>
-            <rect width="10" height="10" x="-17" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-02" data-level="0"></rect>
-            <rect width="10" height="10" x="-17" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-08-03" data-level="2"></rect>
-            <rect width="10" height="10" x="-17" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-04" data-level="0"></rect>
-            <rect width="10" height="10" x="-17" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-05" data-level="0"></rect>
-            <rect width="10" height="10" x="-17" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-08-06" data-level="1"></rect>
-            </g>
-            <g transform="translate(448, 0)">
-            <rect width="10" height="10" x="-18" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-07" data-level="0"></rect>
-            <rect width="10" height="10" x="-18" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-08-08" data-level="1"></rect>
-            <rect width="10" height="10" x="-18" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-09" data-level="0"></rect>
-            <rect width="10" height="10" x="-18" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-10" data-level="0"></rect>
-            <rect width="10" height="10" x="-18" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-11" data-level="0"></rect>
-            <rect width="10" height="10" x="-18" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-12" data-level="0"></rect>
-            <rect width="10" height="10" x="-18" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-08-13" data-level="2"></rect>
-            </g>
-            <g transform="translate(462, 0)">
-            <rect width="10" height="10" x="-19" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-14" data-level="0"></rect>
-            <rect width="10" height="10" x="-19" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-08-15" data-level="1"></rect>
-            <rect width="10" height="10" x="-19" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-08-16" data-level="2"></rect>
-            <rect width="10" height="10" x="-19" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-17" data-level="0"></rect>
-            <rect width="10" height="10" x="-19" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-08-18" data-level="1"></rect>
-            <rect width="10" height="10" x="-19" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="5" data-date="2022-08-19" data-level="3"></rect>
-            <rect width="10" height="10" x="-19" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-08-20" data-level="1"></rect>
-            </g>
-            <g transform="translate(476, 0)">
-            <rect width="10" height="10" x="-20" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-08-21" data-level="1"></rect>
-            <rect width="10" height="10" x="-20" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="7" data-date="2022-08-22" data-level="4"></rect>
-            <rect width="10" height="10" x="-20" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-23" data-level="0"></rect>
-            <rect width="10" height="10" x="-20" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-08-24" data-level="1"></rect>
-            <rect width="10" height="10" x="-20" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-08-25" data-level="1"></rect>
-            <rect width="10" height="10" x="-20" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-26" data-level="0"></rect>
-            <rect width="10" height="10" x="-20" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-27" data-level="0"></rect>
-            </g>
-            <g transform="translate(490, 0)">
-            <rect width="10" height="10" x="-21" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-28" data-level="0"></rect>
-            <rect width="10" height="10" x="-21" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-29" data-level="0"></rect>
-            <rect width="10" height="10" x="-21" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-30" data-level="0"></rect>
-            <rect width="10" height="10" x="-21" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-08-31" data-level="0"></rect>
-            <rect width="10" height="10" x="-21" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-01" data-level="0"></rect>
-            <rect width="10" height="10" x="-21" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-09-02" data-level="1"></rect>
-            <rect width="10" height="10" x="-21" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-09-03" data-level="2"></rect>
-            </g>
-            <g transform="translate(504, 0)">
-            <rect width="10" height="10" x="-22" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-04" data-level="1"></rect>
-            <rect width="10" height="10" x="-22" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-09-05" data-level="2"></rect>
-            <rect width="10" height="10" x="-22" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-06" data-level="0"></rect>
-            <rect width="10" height="10" x="-22" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-09-07" data-level="1"></rect>
-            <rect width="10" height="10" x="-22" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-08" data-level="0"></rect>
-            <rect width="10" height="10" x="-22" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-09" data-level="0"></rect>
-            <rect width="10" height="10" x="-22" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-09-10" data-level="1"></rect>
-            </g>
-            <g transform="translate(518, 0)">
-            <rect width="10" height="10" x="-23" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-11" data-level="0"></rect>
-            <rect width="10" height="10" x="-23" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-12" data-level="1"></rect>
-            <rect width="10" height="10" x="-23" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-13" data-level="0"></rect>
-            <rect width="10" height="10" x="-23" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-14" data-level="1"></rect>
-            <rect width="10" height="10" x="-23" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-15" data-level="1"></rect>
-            <rect width="10" height="10" x="-23" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-16" data-level="0"></rect>
-            <rect width="10" height="10" x="-23" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="5" data-date="2022-09-17" data-level="3"></rect>
-            </g>
-            <g transform="translate(532, 0)">
-            <rect width="10" height="10" x="-24" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-18" data-level="0"></rect>
-            <rect width="10" height="10" x="-24" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-09-19" data-level="2"></rect>
-            <rect width="10" height="10" x="-24" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-20" data-level="1"></rect>
-            <rect width="10" height="10" x="-24" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-09-21" data-level="1"></rect>
-            <rect width="10" height="10" x="-24" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-22" data-level="0"></rect>
-            <rect width="10" height="10" x="-24" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-23" data-level="0"></rect>
-            <rect width="10" height="10" x="-24" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-09-24" data-level="2"></rect>
-            </g>
-            <g transform="translate(546, 0)">
-            <rect width="10" height="10" x="-25" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-09-25" data-level="0"></rect>
-            <rect width="10" height="10" x="-25" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-26" data-level="1"></rect>
-            <rect width="10" height="10" x="-25" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-09-27" data-level="2"></rect>
-            <rect width="10" height="10" x="-25" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-28" data-level="1"></rect>
-            <rect width="10" height="10" x="-25" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="8" data-date="2022-09-29" data-level="4"></rect>
-            <rect width="10" height="10" x="-25" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-09-30" data-level="1"></rect>
-            <rect width="10" height="10" x="-25" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-01" data-level="0"></rect>
-            </g>
-            <g transform="translate(560, 0)">
-            <rect width="10" height="10" x="-26" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-02" data-level="1"></rect>
-            <rect width="10" height="10" x="-26" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-03" data-level="0"></rect>
-            <rect width="10" height="10" x="-26" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-04" data-level="0"></rect>
-            <rect width="10" height="10" x="-26" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-05" data-level="0"></rect>
-            <rect width="10" height="10" x="-26" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-06" data-level="1"></rect>
-            <rect width="10" height="10" x="-26" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-07" data-level="0"></rect>
-            <rect width="10" height="10" x="-26" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-08" data-level="0"></rect>
-            </g>
-            <g transform="translate(574, 0)">
-            <rect width="10" height="10" x="-27" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-09" data-level="1"></rect>
-            <rect width="10" height="10" x="-27" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-10" data-level="1"></rect>
-            <rect width="10" height="10" x="-27" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-11" data-level="0"></rect>
-            <rect width="10" height="10" x="-27" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-12" data-level="0"></rect>
-            <rect width="10" height="10" x="-27" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-13" data-level="0"></rect>
-            <rect width="10" height="10" x="-27" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-14" data-level="0"></rect>
-            <rect width="10" height="10" x="-27" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-15" data-level="0"></rect>
-            </g>
-            <g transform="translate(588, 0)">
-            <rect width="10" height="10" x="-28" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-16" data-level="1"></rect>
-            <rect width="10" height="10" x="-28" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-17" data-level="1"></rect>
-            <rect width="10" height="10" x="-28" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-18" data-level="1"></rect>
-            <rect width="10" height="10" x="-28" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-10-19" data-level="1"></rect>
-            <rect width="10" height="10" x="-28" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-20" data-level="1"></rect>
-            <rect width="10" height="10" x="-28" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-21" data-level="0"></rect>
-            <rect width="10" height="10" x="-28" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-22" data-level="0"></rect>
-            </g>
-            <g transform="translate(602, 0)">
-            <rect width="10" height="10" x="-29" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-23" data-level="0"></rect>
-            <rect width="10" height="10" x="-29" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-24" data-level="0"></rect>
-            <rect width="10" height="10" x="-29" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-25" data-level="0"></rect>
-            <rect width="10" height="10" x="-29" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-26" data-level="0"></rect>
-            <rect width="10" height="10" x="-29" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-27" data-level="0"></rect>
-            <rect width="10" height="10" x="-29" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-28" data-level="0"></rect>
-            <rect width="10" height="10" x="-29" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-10-29" data-level="0"></rect>
-            </g>
-            <g transform="translate(616, 0)">
-            <rect width="10" height="10" x="-30" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-30" data-level="1"></rect>
-            <rect width="10" height="10" x="-30" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-10-31" data-level="1"></rect>
-            <rect width="10" height="10" x="-30" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-01" data-level="1"></rect>
-            <rect width="10" height="10" x="-30" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-02" data-level="0"></rect>
-            <rect width="10" height="10" x="-30" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-11-03" data-level="2"></rect>
-            <rect width="10" height="10" x="-30" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-04" data-level="0"></rect>
-            <rect width="10" height="10" x="-30" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-11-05" data-level="2"></rect>
-            </g>
-            <g transform="translate(630, 0)">
-            <rect width="10" height="10" x="-31" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-06" data-level="0"></rect>
-            <rect width="10" height="10" x="-31" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-07" data-level="0"></rect>
-            <rect width="10" height="10" x="-31" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-11-08" data-level="2"></rect>
-            <rect width="10" height="10" x="-31" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-09" data-level="0"></rect>
-            <rect width="10" height="10" x="-31" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="8" data-date="2022-11-10" data-level="4"></rect>
-            <rect width="10" height="10" x="-31" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-11-11" data-level="1"></rect>
-            <rect width="10" height="10" x="-31" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="6" data-date="2022-11-12" data-level="3"></rect>
-            </g>
-            <g transform="translate(644, 0)">
-            <rect width="10" height="10" x="-32" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-13" data-level="1"></rect>
-            <rect width="10" height="10" x="-32" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-14" data-level="0"></rect>
-            <rect width="10" height="10" x="-32" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="6" data-date="2022-11-15" data-level="3"></rect>
-            <rect width="10" height="10" x="-32" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-16" data-level="0"></rect>
-            <rect width="10" height="10" x="-32" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-17" data-level="0"></rect>
-            <rect width="10" height="10" x="-32" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-18" data-level="1"></rect>
-            <rect width="10" height="10" x="-32" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-19" data-level="1"></rect>
-            </g>
-            <g transform="translate(658, 0)">
-            <rect width="10" height="10" x="-33" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-20" data-level="0"></rect>
-            <rect width="10" height="10" x="-33" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-21" data-level="0"></rect>
-            <rect width="10" height="10" x="-33" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-22" data-level="0"></rect>
-            <rect width="10" height="10" x="-33" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-23" data-level="0"></rect>
-            <rect width="10" height="10" x="-33" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-11-24" data-level="1"></rect>
-            <rect width="10" height="10" x="-33" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-25" data-level="0"></rect>
-            <rect width="10" height="10" x="-33" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-11-26" data-level="0"></rect>
-            </g>
-            <g transform="translate(672, 0)">
-            <rect width="10" height="10" x="-34" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-11-27" data-level="1"></rect>
-            <rect width="10" height="10" x="-34" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-28" data-level="1"></rect>
-            <rect width="10" height="10" x="-34" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-29" data-level="1"></rect>
-            <rect width="10" height="10" x="-34" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="5" data-date="2022-11-30" data-level="3"></rect>
-            <rect width="10" height="10" x="-34" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-12-01" data-level="1"></rect>
-            <rect width="10" height="10" x="-34" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-02" data-level="1"></rect>
-            <rect width="10" height="10" x="-34" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-12-03" data-level="2"></rect>
-            </g>
-            <g transform="translate(686, 0)">
-            <rect width="10" height="10" x="-35" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-04" data-level="1"></rect>
-            <rect width="10" height="10" x="-35" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-12-05" data-level="1"></rect>
-            <rect width="10" height="10" x="-35" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-06" data-level="1"></rect>
-            <rect width="10" height="10" x="-35" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-07" data-level="1"></rect>
-            <rect width="10" height="10" x="-35" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-12-08" data-level="1"></rect>
-            <rect width="10" height="10" x="-35" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-09" data-level="0"></rect>
-            <rect width="10" height="10" x="-35" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-12-10" data-level="1"></rect>
-            </g>
-            <g transform="translate(700, 0)">
-            <rect width="10" height="10" x="-36" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-11" data-level="0"></rect>
-            <rect width="10" height="10" x="-36" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-12" data-level="1"></rect>
-            <rect width="10" height="10" x="-36" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-13" data-level="1"></rect>
-            <rect width="10" height="10" x="-36" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-14" data-level="0"></rect>
-            <rect width="10" height="10" x="-36" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-15" data-level="1"></rect>
-            <rect width="10" height="10" x="-36" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-16" data-level="0"></rect>
-            <rect width="10" height="10" x="-36" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-17" data-level="1"></rect>
-            </g>
-            <g transform="translate(714, 0)">
-            <rect width="10" height="10" x="-37" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-18" data-level="0"></rect>
-            <rect width="10" height="10" x="-37" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-19" data-level="0"></rect>
-            <rect width="10" height="10" x="-37" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-20" data-level="0"></rect>
-            <rect width="10" height="10" x="-37" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-21" data-level="0"></rect>
-            <rect width="10" height="10" x="-37" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-22" data-level="0"></rect>
-            <rect width="10" height="10" x="-37" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-23" data-level="1"></rect>
-            <rect width="10" height="10" x="-37" y="78" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-24" data-level="0"></rect>
-            </g>
-            <g transform="translate(728, 0)">
-            <rect width="10" height="10" x="-38" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-25" data-level="0"></rect>
-            <rect width="10" height="10" x="-38" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-12-26" data-level="1"></rect>
-            <rect width="10" height="10" x="-38" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="0" data-date="2022-12-27" data-level="0"></rect>
-            </g>
-            <text x="27" y="-7" class="ContributionCalendar-label">Jan</text>
-            <text x="92" y="-7" class="ContributionCalendar-label">Feb</text>
-            <text x="144" y="-7" class="ContributionCalendar-label">Mar</text>
-            <text x="196" y="-7" class="ContributionCalendar-label">Apr</text>
-            <text x="248" y="-7" class="ContributionCalendar-label">May</text>
-            <text x="313" y="-7" class="ContributionCalendar-label">Jun</text>
-            <text x="365" y="-7" class="ContributionCalendar-label">Jul</text>
-            <text x="430" y="-7" class="ContributionCalendar-label">Aug</text>
-            <text x="482" y="-7" class="ContributionCalendar-label">Sep</text>
-            <text x="534" y="-7" class="ContributionCalendar-label">Oct</text>
-            <text x="599" y="-7" class="ContributionCalendar-label">Nov</text>
-            <text x="651" y="-7" class="ContributionCalendar-label">Dec</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="8" style="display: none;">Sun</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="22">Mon</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="32" style="display: none;">Tue</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="48">Wed</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="57" style="display: none;">Thu</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="73">Fri</text>
-            <text text-anchor="start" class="ContributionCalendar-label" dx="-15" dy="81" style="display: none;">Sat</text>
-            </g></svg>
-            <div class="width-full f6 px-0 px-md-5 py-1">
-            <div class="float-left">
-            <a href="https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile" class="Link--muted">
-            Learn how we count contributions</a>
-            </div>
-            <div class="float-right color-fg-muted" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">
-            Less
-            <svg width="10" height="10" class="d-inline-block">
-            <rect width="10" height="10" class="ContributionCalendar-day" rx="2" ry="2" data-level="0"></rect>
-            </svg>
-            <svg width="10" height="10" class="d-inline-block">
-            <rect width="10" height="10" class="ContributionCalendar-day" rx="2" ry="2" data-level="1"></rect>
-            </svg>
-             <svg width="10" height="10" class="d-inline-block">
-            <rect width="10" height="10" class="ContributionCalendar-day" rx="2" ry="2" data-level="2"></rect>
-            </svg>
-            <svg width="10" height="10" class="d-inline-block">
-            <rect width="10" height="10" class="ContributionCalendar-day" rx="2" ry="2" data-level="3"></rect>
-            </svg>
-            <svg width="10" height="10" class="d-inline-block">
-            <rect width="10" height="10" class="ContributionCalendar-day" rx="2" ry="2" data-level="4"></rect>
-            </svg>
-            More
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="position-relative" id="user-activity-overview">
-            <div class="Box mb-5 p-3 activity-overview-box border-top border-xl-top-0">
-            <div class="d-flex flex-column flex-lg-row">
-            <div class="col-12 col-lg-6 d-flex flex-column pr-lg-5">
-            <h5 class="mb-3 text-normal">
-            Activity
-            overview
-            </h5>
-            <div class="d-flex mb-2">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo flex-shrink-0 color-fg-muted mt-1 mr-2">
-            <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-            </svg>
-            <div class="wb-break-word" data-repository-hovercards-enabled="">
-            Contributed to
-            <a href="/NikhSin/boorish-floor-4212" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.highlights_click&quot;,&quot;payload&quot;:{&quot;scoped_org_id&quot;:null,&quot;target_type&quot;:&quot;REPOSITORY&quot;,&quot;target_url&quot;:&quot;NikhSin/boorish-floor-4212.git&quot;,&quot;originating_url&quot;:&quot;https://github.com/users/NikhSin/contributions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d052e111b7224e574c3cba55084f2a7c8d5ffa68ce4c6e29975023d70e24e492" data-hovercard-type="repository" data-hovercard-url="/NikhSin/boorish-floor-4212/hovercard" class="text-bold css-truncate css-truncate-target" style="max-width: 228px;">NikhSin/boorish-floor-4212</a>,
-            <a href="/NikhSin/willing-collar-6727" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.highlights_click&quot;,&quot;payload&quot;:{&quot;scoped_org_id&quot;:null,&quot;target_type&quot;:&quot;REPOSITORY&quot;,&quot;target_url&quot;:&quot;NikhSin/willing-collar-6727.git&quot;,&quot;originating_url&quot;:&quot;https://github.com/users/NikhSin/contributions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="da2fd314ae0c2aef20736ea28cd2ff20a288c1fde619742c523c5ee524bbae7b" data-hovercard-type="repository" data-hovercard-url="/NikhSin/willing-collar-6727/hovercard" class="text-bold css-truncate css-truncate-target" style="max-width: 228px;">NikhSin/willing-collar-6727</a>,
-            <a href="/NikhSin/bansalharshit.github.io" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.highlights_click&quot;,&quot;payload&quot;:{&quot;scoped_org_id&quot;:null,&quot;target_type&quot;:&quot;REPOSITORY&quot;,&quot;target_url&quot;:&quot;NikhSin/NikhSin.github.io.git&quot;,&quot;originating_url&quot;:&quot;https://github.com/users/NikhSin/contributions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ff4632e665265557406684354f716f4d189d4b2cd537937292ccef651965d0f9" data-hovercard-type="repository" data-hovercard-url="/NikhSin/NikhSin.github.io/hovercard" class="text-bold css-truncate css-truncate-target" style="max-width: 228px;">NikhSin/NikhSin.github.io</a>
-            <span class="no-wrap">
-            and 12 other
-            repositories
-            </span>
-            </div>
-            </div>
-            </div>
-            <div class="pl-lg-3 col-6 border-lg-left">
-            <div class="js-activity-overview-graph-container" data-percentages="{&quot;Commits&quot;:92,&quot;Issues&quot;:5,&quot;Pull requests&quot;:3,&quot;Code review&quot;:0}">
-            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="js-activity-overview-graph-spinner d-block mx-auto mt-4 anim-rotate">
-            <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
-            <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
-            </svg>
-            <svg class="js-activity-overview-graph d-none mx-auto
-                  " xmlns="http://www.w3.org/2000/svg">
-            <g>
-            <path class="js-highlight-blob" stroke-linejoin="round" fill="#40c463" stroke="#40c463" opacity="0.5" stroke-width="7"></path>
-            <line stroke-width="2" stroke-linecap="round" class="js-highlight-x-axis activity-overview-axis"></line>
-            <line stroke-width="2" stroke-linecap="round" class="js-highlight-y-axis activity-overview-axis"></line>
-            <ellipse class="activity-overview-point js-highlight-top-ellipse" rx="3" ry="3" stroke-width="2" fill="white"></ellipse>
-            <ellipse class="activity-overview-point js-highlight-right-ellipse" rx="3" ry="3" stroke-width="2" fill="white"></ellipse>
-            <ellipse class="activity-overview-point js-highlight-bottom-ellipse" rx="3" ry="3" stroke-width="2" fill="white"></ellipse>
-            <ellipse class="activity-overview-point js-highlight-left-ellipse" rx="3" ry="3" stroke-width="2" fill="white"></ellipse>
-            <text text-anchor="middle" class="activity-overview-percentage js-highlight-percent-top"></text>
-            <text text-anchor="middle" class="text-small activity-overview-label js-highlight-label-top"></text>
-            <text text-anchor="start" class="activity-overview-percentage js-highlight-percent-right"></text>
-            <text text-anchor="start" class="text-small activity-overview-label js-highlight-label-right"></text>
-            <text text-anchor="middle" class="activity-overview-percentage js-highlight-percent-bottom"></text>
-            <text text-anchor="middle" class="text-small activity-overview-label js-highlight-label-bottom"></text>
-            <text text-anchor="end" class="activity-overview-percentage js-highlight-percent-left"></text>
-            <text text-anchor="end" class="text-small activity-overview-label js-highlight-label-left"></text>
-            </g>
-            </svg>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="contrib-column contrib-column-first table-column"><span class="text-muted">Contributions in the last year</span>
-                                           <span class="contrib-number">255 total</span>
-                                           <span class="text-muted">Dec 28, 2021 – Dec 27, 2022</span></div><div class="contrib-column table-column"><span class="text-muted">Longest streak</span>
-                                           <span class="contrib-number">12 days</span>
-                                           <span class="text-muted">November 27 – December 8</span></div><div class="contrib-column table-column"><span class="text-muted">Current streak</span>
-                                           <span class="contrib-number">0 days</span>
-                                           <span class="text-muted">Last contributed in December 26.</span></div></div>
-            
-            <script>
-                GitHubCalendar(".calendar", "NikhSin");
-            
-                GitHubCalendar(".calendar", "NikhSin", { responsive: true });
-            </script>
-            
-            <!-- calender end  --> 
-                  </section>
+        </section>  
+         <!-- =========================contact form ======================== -->
 
-
-
-
-
-        <!--==================== PROJECT ====================-->
-        <section class="portfolio section" id="portfolio">
-
-            <h2 class="section__title">Projects</h2>
-            <span class="section__subtitle"> </span>
-
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-        <!--==================== PROJECT 1 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="packages\images\portfolio1.png" alt="" class="portfolio__img">
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title">MailChimp Website</h3>
-                    <p class="portfolio__description">Project to clone a website names mailchimp.com. Mailchimp is an American marketing automation platform and email marketing service for managing mailing lists and creating email marketing campaigns.
-                        Tried to clone the appearace and major functionalities of the website like creating an account and loging in it, used localstorage to achieve these functionalities.</p>
-                    <a href="https://verdant-gecko-cf4194.netlify.app/navbarbyvicky/" class="button button--flex button--small portfolio__button">
-                        Visit
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
+         <section class="contact" id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+                <span>Contact Details</span>
             </div>
 
-            <!--==================== PROJECT 2 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="packages\images\portfolio2.png" alt="" class="portfolio__img">
+            <!-- form -->
 
-                <div class="portfolio_">
-                    <h3 class="portfolio__title">Nature Basket</h3>
-                    <p class="portfolio__description">Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods. The company is headquartered in Mumbai, India and has multiple stores in cities like Mumbai, Bengaluru, Pune and Kolkata.</p>
-                    <a href="https://nature-sbasket.netlify.app/" class="button button--flex button--small portfolio__button">
-                        Visit
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
-
-            <!-- add arrows-->
-            <!-- <div class="swiper-button-next">
-                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
-
-            <div class="swiper-button-prev">
-                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
-
-            Add Pagination -->
-            <!-- <div class="swiper-pagination"></div> -->
-            
-        
-        </div>
-
-        </section>
-
-        <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-
-            <div class="project__bg">
-                <div class="project__container container grid">
-                    <div class="project__data">
-                        <h2 class="project__title">You have a new project?</h2>
-                        <p class="project__description">Contact me now and get discounts on your Web development projects.</p>
-                        <a href="#contact" class="button button--flex button--white">Contact me
-                            <i class="uil uil-message project__icon button__icon"></i>
-                        </a>
-                       
+            <div class="contact-form">
+                <div class="information">
+                    <!-- box1 -->
+                    <div class="info-box">
+                        <i class="bx bxs-phone"></i>
+                        <span><a href="tel:+918570984471"> +91 7089454864</a></span>
                     </div>
-                    <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
-                </div>
-            </div>
-
-        </section>
-
-       
-
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contact me</h2>
-            <span class="section__subtitle">Get in touch</span>
-
-            <div class="contact__container container grid">
-                <div>
-                    <div class="contact__information">
-                        <i class="uil uil-phone-alt contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Call me</h3>
-                            <span class="contatc__subtitle">(+91) 7089454864</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">E-mail</h3>
-                            <span class="contatc__subtitle">itsnikhil0786@gmail.com</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contatc__subtitle">Madhya Pradesh,India</span>
-                        </div>
+                    <!-- box3 -->
+                    <div class="info-box">
+                        <i class="bx bxs-envelope"></i>
+                        <span> <a href="mailto: rananancy91@gmail.com"> itsnikhil0786@gmail.com</a></span>
                     </div>
                 </div>
-
-                <form action="" class="contact__form grid">
-                    <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
-                        </div>
-                    </div>
-
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input">
-                    </div>
-
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                    </div>
-
-                    <div>
-                        <a href="#" class="button button--flex">
-                            Send message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
+                <form action="https://formspree.io/f/xpznqgvl" method="post">
+                    <input type="text" placeholder="Your Name" name="Name">
+                    <input type="email" placeholder="Your Email" name="Email">
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Your Massage Here...." ></textarea>
+                    <input type="submit" value="Send" class="contact-button">
                 </form>
             </div>
-
         </section>
-    </main>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-
-        <div class="footer__bg">
-            <div class="footer__container container grid">
-                <div>
-                    <h1 class="footer__title">Nikhil Singh</h1>
-                    <span class="footer__subtitle">Java Backend Developer</span>
-                </div>
-
-                <ul class="footer__links">
-                    <li>
-                        <a href="#services" class="footer__link">My Statics</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="footer__link">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="footer__link">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="footer__socials">
-                    <a href="https://www.facebook.com/profile.php?id=100029562169464" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook"></i>
-                    </a>
-                    <a href="https://www.instagram.com/the_ultimate_anonymous/" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
-                    <a href="https://twitter.com/itsnikhil0786" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a>
-                </div>
-            </div>
-            <p class="footer__copy">&#169; Nikhil. All rights reserved.</p>
+        <!-- ======================footer section============================ -->
+        <div class="footer">
+        <h2>Nikhil Singh</h2>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/nikhil-singh-5b0072204/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/NikhSin" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/the_ultimate_anonymous/" target="_blank"><i class="bx bxl-instagram"></i></a>
         </div>
-    </footer>
+        </div>
 
-    <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
-    
+    <!-- js file -->
+    <script src="./index.js"></script>    
 
-    <!--==================== SWIPER JS ====================-->
-    <script src="./packages/js/swiper-bundle.min.js"></script>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="./packages/js/main.js"></script>
+    <!-- git js -->
+    <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 </body>
-
 </html>
+
+<script>
+    GitHubCalendar(".calendar", "NikhSin");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "NikhSin", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "NikhSin", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${NikhSin}`)
+       }
+    }).then(r => r.text())
+</script>
