@@ -69,12 +69,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--bg-color);
+    background: #18aeacf8;
     padding: 13px 10%;
     transition: 0.2s;
-    box-shadow: -3px -3px  7px #ffffff73,
+    box-shadow: -3px -3px  7px #18aeacf8,
                 2px 2px 5px rgba(94, 104 , 121, 0.288);
-                background-color: rgb(189, 181, 171);
+                background-color:#18aeacf8;
 }
 .logo{
     font-size: 1.61rem;
@@ -423,7 +423,7 @@ textarea::placeholder {
     display: grid;
     place-items: center;
     padding: 20px;
-    background: #ebebeb;
+    background: #18aeacf8;
     width: 100%;
     color: #000;
 }
@@ -613,4 +613,6 @@ textarea::placeholder {
     #statics .skills-box{
         width: 150px;
     }
+
+    
 }
